@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Mon Extension Chrome",
+    "version": "1.0",
+    "description": "Une extension Chrome simple utilisant app.js",
+    "permissions": [
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "img/icon.png"
+      }
+    },
+    "icons": {
+      "128": "img/icon.png"
+    }
+  }
