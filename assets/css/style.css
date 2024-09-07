@@ -2,6 +2,7 @@
 
 :root {
     --background:rgb(0, 23, 66);
+    --secondary-background:rgb(0, 30, 87);
     --background-header:rgb(0, 17, 48);
 }
 
@@ -68,4 +69,25 @@ input[type=search] {
 
     border-style: solid;
     border-radius: 20px;
+}
+
+.div-output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width: 50%;
+    height: 30px;
+
+    padding: 5px 15px;
+    margin: 10px 20px;
+
+    background-color: var(--secondary-background);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
